@@ -1,0 +1,32 @@
+Gitkraken: Intégre github / bigbucket
+Shell permettant comit, historique, branche, merge, shary pic ect
+Lier son compte github (accés aux dépots, cloner)- Initialiaser -> gitIgnore, choix d'une licence
+
+Interface:
+A gauche:
+Branches -- branche sur laquelle on travail
+Remote les dépôts distants
+Tags
+
+Milieu:
+Historique des comits
+Clic sur comit:
+On à accés à l'historique du fichier
+crée des tags, checkout
+commande blame: quià modifié quoi
+Glissement entre les branches: fusionner les branches
+
+A droite:
+les derniers comit faits
+
+Working progress ->
+vert fichier rajouté
+jaune fichier modifié
+Rouge fichier supprimer
+
+
+Support de gitflow: modéle de création de branche strict conçu autour de la livraison de projet. 
+But: avoir un framework solide pour la gestion de projets importants; crée des features, gérer les modifications
+
+
+

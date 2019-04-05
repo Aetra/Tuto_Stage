@@ -1,0 +1,21 @@
+Ember= framework js conçu pour des interactions riches et complexes. Ensemble fonctionalités de gestion de la complexité des applications Web
+Tout ce que peu installer npm -> Ender le peut
+
+Docs:https://guides.emberjs.com/release/ // doc compléte: documentation de l'API Ember.js 
+
+Listing des fonctionalités:
+-Ember CLI (boite à outils de dev pour crée,construire des apps Ember) ex: $ ember <command>
+-Routage : Partie centrale de l'application. Controler l'état de l'application à partir de l'url
+-Moteur de templates: Syntaxe Handlebars pour template de l'app
+-Couche de données: Ember Data (moyen de communiqer avec API externer, gérer état de l'app)
+-Ember Inspector: Extension de navigateur, bookmarklet, permet d'inspecter l'app en direct. Utile aussi pour inpecter l'app en direct, reonnaitre les app ember à leur base
+
+// Tutoriel //
+Annexe:
+-Promise (pour traiter l'asynchronisme dans le js idem au verrou en sql ou syncrhonised pour les threads -- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+-Structure du projet Ember CLI - MODULES ES2015 et chemins d'import(https://jsmodules.io/): 
+-Babel.js -> https://babeljs.io/docs/en/learn
+
+
+
+

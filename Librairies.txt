@@ -1,0 +1,35 @@
+Librairies utilisées:
+-https://handlebarsjs.com/ :
+Construire des modèles sémantiques efficacement
+Handlebars: {{}} si on veut pas perdre des valeurs: triple_slash"
+Les Handlebars prennent en harge les chemins simple, chemins imbriqués (rechercher les propriétés imbriqués)
+
+
+Exemple d'utilisation:
+var context = {title: " Mon nouveau message " , corps: " Ceci est mon premier message! " };
+var html     = template (context);
+==||||||||||||||||||||==
+< div  class = " entry " > 
+  < h1 > Mon nouveau message </ h1 > 
+  < div  class = " body " >
+    Ceci est mon premier message posté!
+  </ div > 
+</ div >
+
+Bloquer des expressions:
+Permet d'inserer des sections, contextes: # ou / (par exemple ajouter pour un objet une propriété propre à celle-ci)
+
+
+Commentaires: <!- ->
+
+https://momentjs.com/ 
+Analyser, valider, manipuler et afficher les dates et les heures en JavaScript. 
+Pour gérer les dates / Format des dates / Le temps / Date en forme de calendrier
+
+Instalation:
+npm install moment --save   # npm
+yarn add moment             # Yarn
+Install-Package Moment.js   # NuGet
+spm install moment --save   # spm
+meteor add momentjs:moment  # meteor
+bower install moment --save # bower (depre
